@@ -15,12 +15,12 @@ mongo-express Администривная панель БД `http://localhost:8
 
 При инициализации проекта если БД не создана , создается бд coursework и colection cards c данными
 
-- "id", cardFromCVV:111, cardFromNumber: 1111111111111111, cardFromValidTill:"11/24", balans:10000
-- "id", cardFromCVV:222, cardFromNumber: 2222222222222222, cardFromValidTill:"11/24", balans:10000
-- "id", cardFromCVV:333, cardFromNumber: 3333333333333333, cardFromValidTill:"11/24", balans:10000
-- "id", cardFromCVV:444, cardFromNumber: 4444444444444444, cardFromValidTill:"11/24", balans:10000
-- "id", cardFromCVV:555, cardFromNumber: 5555555555555555, cardFromValidTill:"11/24", balans:10000
-- "id", cardFromCVV:666, cardFromNumber: 6666666666666666, cardFromValidTill:"11/24", balans:10000
+- "id", cardFromCVV:111, cardFromNumber: 1111111111111111, cardFromValidTill:"11/24", balans:100000
+- "id", cardFromCVV:222, cardFromNumber: 2222222222222222, cardFromValidTill:"11/24", balans:100000
+- "id", cardFromCVV:333, cardFromNumber: 3333333333333333, cardFromValidTill:"11/24", balans:100000
+- "id", cardFromCVV:444, cardFromNumber: 4444444444444444, cardFromValidTill:"11/24", balans:100000
+- "id", cardFromCVV:555, cardFromNumber: 5555555555555555, cardFromValidTill:"11/24", balans:100000
+- "id", cardFromCVV:666, cardFromNumber: 6666666666666666, cardFromValidTill:"11/24", balans:100000
 
 При запросе  с  https://serp-ya.github.io/card-transfer/ происходит валидация данных, при успешном прохождение создается colection transferCardS с данными
 Пример:
